@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Aurora Bluetooth Headphones",
+    "category": "Electronics",
+    "price": 79.99,
+    "imageUrl": "/images/1.svg"
+  },
+  {
+    "id": 2,
+    "name": "Nordic Wool Scarf",
+    "category": "Apparel",
+    "price": 35.0,
+    "imageUrl": "/images/2.svg"
+  },
+  {
+    "id": 3,
+    "name": "Bamboo Coffee Table",
+    "category": "Home",
+    "price": 149.5,
+    "imageUrl": "/images/3.svg"
+  },
+  {
+    "id": 4,
+    "name": "Solar Charger 20W",
+    "category": "Electronics",
+    "price": 49.95,
+    "imageUrl": "/images/4.svg"
+  },
+  {
+    "id": 5,
+    "name": "Ceramic Mug - Ocean",
+    "category": "Home",
+    "price": 12.0,
+    "imageUrl": "/images/5.svg"
+  },
+  {
+    "id": 6,
+    "name": "Running Sneakers Pro",
+    "category": "Apparel",
+    "price": 89.99,
+    "imageUrl": "/images/6.svg"
+  },
+  {
+    "id": 7,
+    "name": "Stainless Travel Bottle 1L",
+    "category": "Outdoors",
+    "price": 24.99,
+    "imageUrl": "/images/7.svg"
+  },
+  {
+    "id": 8,
+    "name": "Camping Hammock Deluxe",
+    "category": "Outdoors",
+    "price": 59.0,
+    "imageUrl": "/images/8.svg"
+  },
+  {
+    "id": 9,
+    "name": "Minimalist Desk Lamp",
+    "category": "Home",
+    "price": 39.9,
+    "imageUrl": "/images/9.svg"
+  },
+  {
+    "id": 10,
+    "name": "Wireless Charger Pad",
+    "category": "Electronics",
+    "price": 19.99,
+    "imageUrl": "/images/10.svg"
+  }
+]
