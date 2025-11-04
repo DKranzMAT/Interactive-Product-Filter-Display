@@ -1,33 +1,50 @@
-# Product Filter Component
+# 🛍️ Interactive Product Filter Display
 
-A small React + Tailwind CSS project that displays a list of products with category and price range filters.
+A lightweight **React + Vite + Tailwind CSS** project that displays a responsive grid of products with dynamic category and price-range filters.  
+Deployed live via **GitHub Pages**:  
+👉 [dkranzmat.github.io/Interactive-Product-Filter-Display](https://dkranzmat.github.io/Interactive-Product-Filter-Display)
 
-## 🚀 Setup
-1. Install dependencies
+---
+
+## ⚙️ Setup
+
+1. **Install dependencies**
    ```bash
    npm install
    ```
 
-2. Start development server
+2. **Start local dev server**
    ```bash
    npm run dev
    ```
 
-3. Build for production
+3. **Build for production**
    ```bash
    npm run build
    ```
 
-## 🧩 Features
-- Category filter (All, Electronics, Apparel, etc.)
-- Price range filter (min/max)
-- Tailwind CSS styling only
-- Local SVG placeholder images for offline reliability
+4. **Preview local build**
+   ```bash
+   npm run preview
+   ```
 
-## 📂 File Structure
+---
+
+## ✨ Features
+
+- 🔍 **Category filter** — Filter by groups like *All*, *Electronics*, *Apparel*, etc.  
+- 💰 **Price range filter** — Adjustable min/max product pricing.  
+- 💡 **Local SVG images** — Fast, offline-friendly, and optimized for Pages deployment.  
+- 🎨 **Tailwind CSS** — Responsive, utility-first design with minimal CSS overhead.  
+- ⚛️ **Modular React components** — Clean structure for easy reuse and extension.  
+- ⚡ **Vite bundler** — Instant hot reloads and optimized builds for GitHub Pages.  
+
+---
+
+## 📁 Project Structure
 
 ```
-product-filter/
+Interactive-Product-Filter-Display/
 ├── index.html
 ├── package.json
 ├── vite.config.js
@@ -44,16 +61,46 @@ product-filter/
     ├── index.css
     ├── data/
     │   └── products.json
+    ├── utils/
+    │   └── asset.js
     └── components/
         ├── FilterBar.jsx
         └── ProductList.jsx
 ```
 
-✅ **Note:** The `public/` folder should stay **outside** of `src/`.  
-Vite automatically serves files from `public/` at the root of your app (e.g., `/images/1.svg` → `public/images/1.svg`).
+✅ **Note:** Keep the `public/` folder outside of `src/`.  
+Vite automatically serves assets from `/public` at your app’s root, so `/images/1.svg` resolves correctly during build and deployment.
 
-## 🧠 Notes
-- Built with Vite + React.
-- Uses clean, modular components.
-- Tailwind handles all styling via utility classes.
-- Each product’s image is an SVG stored locally in `public/images/` for reliable loading.
+---
+
+## 🧠 Tech Stack
+
+| Tool / Library | Purpose |
+|-----------------|----------|
+| **React 18+** | Component-based UI logic |
+| **Vite** | Fast build tool and local dev server |
+| **Tailwind CSS** | Responsive utility-first styling |
+| **GitHub Pages** | Static site hosting |
+| **Node.js + npm** | Dependency management and scripts |
+
+---
+
+## 💬 Notes
+
+- Each product references a **local SVG image** stored in `/public/images/` for reliability and quick load times.  
+- Deployment configured via GitHub Actions workflow (`.github/workflows/pages.yml`).  
+- Compatible with modern browsers and mobile viewports.  
+- Easily extendable for API integration or advanced filtering logic.
+
+---
+
+## 🧩 Demo
+
+Live preview → [**Interactive Product Filter Display**](https://dkranzmat.github.io/Interactive-Product-Filter-Display)  
+Responsive, performant, and visually minimal — built for clean UX and code clarity.
+
+---
+
+**Author:** Dave Kranz  
+💻 Front-End Developer | React • Tailwind • Vite  
+[GitHub](https://github.com/DKranzMAT)
